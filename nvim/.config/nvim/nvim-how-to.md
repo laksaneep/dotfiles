@@ -1,4 +1,4 @@
-# NVIM 101 :
+#NVIM 101 :
 
 ### nvim-tree - for beautiful window plane
 
@@ -9,7 +9,7 @@
 1. windows
 
 - Split window in holizontally : `space + sh`
-- Split window in vertically : `space + sv
+- Split window in vertically : `space + sv`
 - Close current split window : `space + sx`
 
 - Navigate to left window : `Ctrl-h`
@@ -50,3 +50,9 @@
 - `space + ca` : Open code actions
 - `space + rn` : Rename variables
 - `K` : See document
+
+### oil - for open file explorer
+
+- `-` : Open file explorer
+- `space + -` : Open file explorer in floating popup
+- `q` : Quit file explorer
