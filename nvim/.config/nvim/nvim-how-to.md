@@ -1,4 +1,4 @@
-#NVIM 101 :
+# NVIM 101 :
 
 ### nvim-tree - for beautiful window plane
 
