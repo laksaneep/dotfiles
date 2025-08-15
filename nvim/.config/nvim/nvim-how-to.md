@@ -56,3 +56,7 @@
 - `-` : Open file explorer
 - `space + -` : Open file explorer in floating popup
 - `q` : Quit file explorer
+
+### Others 
+
+- `space + fp` : Copy file path to clipboard 
