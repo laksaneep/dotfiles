@@ -1,0 +1,5 @@
+# Ignore all tmux plugins (only track tpm if you want)
+tmux/.config/tmux/plugins/*
+tmux/.config/tmux/plugins/tpm/
+
+tmux/.config/tmux/plugins/tpm
