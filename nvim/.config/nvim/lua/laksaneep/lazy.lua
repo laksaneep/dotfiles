@@ -17,18 +17,20 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
-local plugin = {
-  { import = "laksaneep.plugins" },
-  { import = "laksaneep.plugins.lsp" },
-}
-local opt = {}
+require("lazy").setup({
+  spec = {
+    { import = "laksaneep.plugins" },
+    --    { import = "laksaneep.plugins.lsp" },
+  },
+  defaults = { lazy = false, version = false },
+  checker = { enabled = true },
+})
 
-require("lazy").setup(plugin, opt)
 require("catppuccin").setup({
-  flavour = "mocha", -- latte, frappe, macchiato, mocha
+  flavour = "macchiato", -- latte, frappe, macchiato, mocha
   background = { -- :h background
-    light = "mocha",
-    dark = "mocha",
+    light = "macchiato",
+    dark = "macchiato",
   },
   transparent_background = true,
 })
