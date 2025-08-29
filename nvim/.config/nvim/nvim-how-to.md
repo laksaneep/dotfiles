@@ -4,6 +4,10 @@
 
 - Toggle file explorer : `space + ee`
 
+### blink.cmp - auto suggest completions 
+
+- Show suggestion completion : `Ctrl + l` in **INSERT MODE**
+
 ### vim-tmux-navigator - tmux & split window
 
 1. windows
